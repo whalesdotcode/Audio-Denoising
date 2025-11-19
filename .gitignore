@@ -1,0 +1,53 @@
+
+
+# Large audio files
+data/clean_audio_folder/
+data/noise_folder/
+data/processed_audio/clean/*.wav
+data/processed_audio/noisy/*.wav
+*.wav
+*.mp3
+*.flac
+
+# Allow sample results
+!results/sample_*.wav
+
+# Model files (use Git LFS if needed)
+models/*.h5
+*.h5
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Training artifacts
+*.log
+wandb/
+
+# Virtual environments
+myenv/
+venv/
+env/
+ENV/
+.venv/
