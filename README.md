@@ -36,8 +36,8 @@ The model successfully removes environmental noise including dog barking, backgr
 
 ### Installation
 ```bash
-git clone https://github.com/yourusername/audio-denoising-segan.git
-cd audio-denoising-segan
+git clone https://github.com/whalesdotcode/Audio-Denoising.git
+cd audio-denoising
 pip install -r requirements.txt
 ```
 
@@ -89,5 +89,5 @@ audio-denoising-segan/
 ## 👤 Author
 
 **Olawale Olajumoke**
-- B.Eng in Electrical/Electronics Engineering (CGPA: 4.36/5.0)
+- B.Eng in Electrical/Electronics Engineering 
 
